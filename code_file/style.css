@@ -1,0 +1,213 @@
+@font-face {
+    font-family: gg_sans_regular;
+    src: url(../Resource/font/GoogleSans-Regular.otf);
+}
+
+@font-face {
+    font-family: gg_sans_bold;
+    src: url(../Resource/font/GoogleSans-Bold.otf);
+}
+
+@font-face {
+    font-family: gg_sans_italic;
+    src: url(../Resource/font/GoogleSans-Italic.otf);
+}
+
+@font-face {
+    font-family: gg_sans_medium;
+    src: url(../Resource/font/GoogleSans-Medium.otf);
+}
+
+html{
+    font-size: 13px;
+}
+
+body{
+    font-family: gg_sans_regular;
+    background-color: aliceblue;
+    margin: 0;
+}
+
+.padding{
+   display: flex;
+   flex-direction: column;
+}
+
+.header{
+    background-color: #ffffff;
+    height: 48px;
+    box-shadow: 3px 2px 6px rgba(0, 0, 0, 0.32);
+    display: flex;
+    align-items: center;
+    padding: 0 16px 0 16px;
+}
+
+.header-logo-icon{
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.header-homepage-icon{
+    background-image: url(../Resource/cukcuk-logo.png);
+    width: 90px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.header-company{
+    margin-left: 48px;
+}
+
+.header-expand-icon{
+    background-image: url(../Resource/icon/option.png);
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 16px;
+}
+
+.header-name-icon{
+    position:absolute;
+    right: calc(16px*3);
+}
+
+.header-avatar-icon{
+    position:absolute;
+    right: 160px;
+    background-image: url(../Resource/icon/avatar-default.png);
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.header-notification-icon{
+    position:absolute;
+    right: 206px;
+    background-image: url(../Resource/icon/btn-prev-page.svg);
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.menu-content{
+    display: flex;
+    margin-top: 1px;
+}
+
+.menu{
+    background-color: #ffffff;
+    width: 226px;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 51px);
+    border: #949494;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.content{
+    background-color: #e9ebee;
+    width: calc(100vw - 226px);
+    height: calc(100vh - 51px);
+}
+
+.menu-select{
+    height: 44px;
+    font-family: gg_sans_medium;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menu-select:hover{
+    background-color: #e5e5e5;
+}
+
+.menu-1{
+    background-color: #019160;
+    color: #ffffff;
+}
+
+.menu-icon {
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    background-size: contain;
+    font-size: 16px;
+}
+
+.content{
+    background-color: #fff;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.content-box-1{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 40px;
+    padding: 16px;
+}
+
+.content-1{
+    font-size: 1.5rem;
+    font-family: gg_sans_regular;
+}
+
+.m-button {
+    background-color: #019160;
+    border-radius: 4px;
+    height: 40px;
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: center;
+    padding: 0 16px 0 16px;
+    border: none;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    cursor: pointer;
+}
+
+.content-add-person{
+    position: absolute;
+    right: 16px;
+}
+
+.content-box-2{
+    display: flex;
+    align-items: center;
+}
+
+.box-2{
+    height: 24px;
+    outline: none;
+}
+
+.father-table-header{
+    display: flex;
+    padding: 0 16px 0 16px;
+    font-family: gg_sans_regular;
+}
+
+.id{padding-right: 50px;}
+.name{padding-right: 100px;}
+.gender{padding-right: 60px;}
+.birth{padding-right: 60px;}
+.phone{padding-right: 70px;}
+.email{padding-right: 200px;}
+.posision{padding-right: 100px;}
+.rooms{padding-right: 150px;}
+.salary{padding-right: 30px;}
+
